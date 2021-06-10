@@ -82,7 +82,6 @@ public class MeetingAdapter
         if (date != null) {
             formattedDate = df.format(date);
             formattedTime = tf.format(date);
-
         }
         final Place meetingPlace = meeting.getPlace();
         assert meetingPlace != null;
