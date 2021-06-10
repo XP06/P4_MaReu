@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b211429-aeba-4897-93fb-567d32d921af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Livrables_P4/P4_ 05_Présentation P4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Livrables_P4/P4_ 05_Présentation P4.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="9b211429-aeba-4897-93fb-567d32d921af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +21,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mareu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mareu/app" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,9 +40,10 @@
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="580" y="207" key="AndroidProcessChooserDialog/2400.13.1920.1040/0.0.1536.920@0.0.1536.920" timestamp="1623066456849" />
-    <state x="549" y="215" key="FileChooserDialogImpl" timestamp="1623311784254">
+    <state x="549" y="215" key="FileChooserDialogImpl" timestamp="1623341694074">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
+    <state x="549" y="215" key="FileChooserDialogImpl/0.0.1536.920@0.0.1536.920" timestamp="1623341694074" />
     <state x="549" y="215" key="FileChooserDialogImpl/2400.13.1920.1040/0.0.1536.920@0.0.1536.920" timestamp="1623311784254" />
   </component>
 </project>

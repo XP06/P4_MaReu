@@ -41,6 +41,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withSpinnerText;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
+
 import static fr.xp06.mareu.utils.RecyclerViewItemCountAssertion.withItemCount;
 import static fr.xp06.mareu.utils.Utils.day;
 import static fr.xp06.mareu.utils.Utils.hours;
@@ -548,6 +549,6 @@ public class MeetingsListTest {
         //Click on filter button
         onView(withId(R.id.finnish_btn)).perform(click());
         // Then : The number of Element is 2
-        onView(withId(R.id.meetings_recylerview)).check(withItemCount(0));
+        onView(withId(R.id.meetings_recylerview)).check(withItemCount(1));
     }
 }
