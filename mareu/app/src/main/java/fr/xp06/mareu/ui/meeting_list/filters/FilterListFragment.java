@@ -1,5 +1,6 @@
 package fr.xp06.mareu.ui.meeting_list.filters;
 
+
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -20,7 +21,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.button.MaterialButton;
 
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -171,12 +171,12 @@ public class FilterListFragment extends DialogFragment {
                 new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker datePicker, int year, int month, int day) {
-                        DateFormat formatter;
+                        SimpleDateFormat formatter;
                         Date convertedDate = null;
                         String fDate = String.format("%02d/%02d", day, month + 1) + '/' + year;
-                        formatter = new SimpleDateFormat("dd/mm/yyyy", Locale.FRENCH);
+                        formatter = new SimpleDateFormat("dd/MM/yyyy", Locale.FRENCH);
                         try {
-                            convertedDate = ((SimpleDateFormat) formatter).parse(fDate);
+                            convertedDate = formatter.parse(fDate);
                         } catch (ParseException e) {
                             e.printStackTrace();
                         }

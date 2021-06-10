@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b211429-aeba-4897-93fb-567d32d921af" name="Default Changelist" comment="" />
+    <list default="true" id="9b211429-aeba-4897-93fb-567d32d921af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Livrables_P4/P4_ 05_Présentation P4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Livrables_P4/P4_ 05_Présentation P4.pdf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tcR9TnjXye3Qdk6jO6dMClcdwY" />
   <component name="ProjectViewState">
@@ -17,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mareu" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,9 +41,9 @@
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="580" y="207" key="AndroidProcessChooserDialog/2400.13.1920.1040/0.0.1536.920@0.0.1536.920" timestamp="1623066456849" />
-    <state x="549" y="215" key="FileChooserDialogImpl" timestamp="1623090879238">
+    <state x="549" y="215" key="FileChooserDialogImpl" timestamp="1623311784254">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="549" y="215" key="FileChooserDialogImpl/2400.13.1920.1040/0.0.1536.920@0.0.1536.920" timestamp="1623090879238" />
+    <state x="549" y="215" key="FileChooserDialogImpl/2400.13.1920.1040/0.0.1536.920@0.0.1536.920" timestamp="1623311784254" />
   </component>
 </project>
