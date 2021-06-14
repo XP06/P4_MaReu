@@ -334,9 +334,9 @@ public class MeetingsListTest {
                                         0),
                                 0),
                         isDisplayed()));
-        textInputEditText4.perform(replaceText("laurent@free.fr,Roger@orange.fr"), closeSoftKeyboard());
+        textInputEditText4.perform(replaceText("herbert@gmail.com,raptor@orange.fr"), closeSoftKeyboard());
         ViewInteraction textInputEditText5 = onView(
-                allOf(withId(R.id.participants_input), withText("Laurent@free.fr,Roger@orange.fr"),
+                allOf(withId(R.id.participants_input), withText("nerbert@gmail.com,raptor@orange.fr"),
                         childAtPosition(
                                 childAtPosition(
                                         withId(R.id.participants_layout),
@@ -415,9 +415,9 @@ public class MeetingsListTest {
                                         0),
                                 0),
                         isDisplayed()));
-        textInputEditText4.perform(replaceText("laurent@free.fr,Roger@orange.fr"), closeSoftKeyboard());
+        textInputEditText4.perform(replaceText("herbert@gmail.com,raptor@orange.fr"), closeSoftKeyboard());
         onView(
-                allOf(withId(R.id.participants_input), withText("Laurent@free.fr,Roger@orange.fr"),
+                allOf(withId(R.id.participants_input), withText("herbert@gmail.com,raptor@orange.fr"),
                         childAtPosition(
                                 childAtPosition(
                                         withId(R.id.participants_layout),
@@ -470,9 +470,9 @@ public class MeetingsListTest {
                                         0),
                                 0),
                         isDisplayed()));
-        textInputEditText4.perform(replaceText("laurent@free.fr,Roger@orange.fr"), closeSoftKeyboard());
+        textInputEditText4.perform(replaceText("herbert@gmail.com,raptor@orange.fr"), closeSoftKeyboard());
         onView(
-                allOf(withId(R.id.participants_input), withText("Laurent@free.fr,Roger@orange.fr"),
+                allOf(withId(R.id.participants_input), withText("herbert@gmail.com,raptor@orange.fr"),
                         childAtPosition(
                                 childAtPosition(
                                         withId(R.id.participants_layout),
